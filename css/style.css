@@ -4342,6 +4342,7 @@ footer.dark p {
   #topnav .navigation-menu > li > a {
     color: #191b1d;
     padding: 15px;
+    text-align: center;
   }
   #topnav .navigation-menu > li > a:hover {
     color: #EF2D56;
