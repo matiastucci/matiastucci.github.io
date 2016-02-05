@@ -1,4 +1,4 @@
-<!-- 
+<!--
 
 DNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
@@ -49,17 +49,17 @@ NNN88   ?DD$   ,DD8888888888888   D888NN8888    D888888888888OD,   +DDZ   88NNN
 NNN    D8D    D8888888888888888D   8D88D888D    D8888888888888888    D88    MNN
 NND  O88O   ,88888888888888888888  8888DD8       88888888888888888    OD8O  DNN
 NNN,8DD    88D888D88888888888888      8888       8888888888888888888    DD8=NNN
-NNN8D7   :D88888888888888888888      D8888D     D8888888888888888888D    :88NNN 
-NNMD    888888888888888888888      88888888888888888888888888888888888D    DNNN 
-,NND=,:DD888D8888888888888888    8888888888888888888888888888888888888DD  =MND  
- IMDNND8D888888888888888888888888888888888888888888888888888888888888888DNNNN?  
-   DNNNNNNNNNNNNNNNNNNNNNNNNNNNNNND88888D8888NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN    
-     8NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN88888NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNO      
-                                 8NNNNN8DNNDNM      
-                                    NDNNNNNO                                    
-                                     DNNND                                      
-                                      DDDD                                      
-                                                     
+NNN8D7   :D88888888888888888888      D8888D     D8888888888888888888D    :88NNN
+NNMD    888888888888888888888      88888888888888888888888888888888888D    DNNN
+,NND=,:DD888D8888888888888888    8888888888888888888888888888888888888DD  =MND
+ IMDNND8D888888888888888888888888888888888888888888888888888888888888888DNNNN?
+   DNNNNNNNNNNNNNNNNNNNNNNNNNNNNNND88888D8888NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+     8NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN88888NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNO
+                                 8NNNNN8DNNDNM
+                                    NDNNNNNO
+                                     DNNND
+                                      DDDD
+
  -->
 <!DOCTYPE html>
 <html lang="en">
@@ -114,7 +114,7 @@ NNMD    888888888888888888888      88888888888888888888888888888888888D    DNNN
             </li>
             <li><a href="#about" data-scroll="true">About</a>
             </li>
-            <li><a href="#services" data-scroll="true">Projects</a>
+            <li><a href="#projects" data-scroll="true">Projects</a>
             </li>
             <li><a href="#experience" data-scroll="true">Experience</a>
             </li>
@@ -160,7 +160,6 @@ NNMD    888888888888888888888      88888888888888888888888888888888888D    DNNN
           <div class="row">
             <div class="col-md-10 col-md-offset-1 about-me-text">
               <p>I read a lot of books, watch too much TV shows and love traveling. But, I am truly passionate about one thing: <i>software development</i>.</p>
-              <p>...and I'm the organizor of the <a target="_blank" href="https://twitter.com/ionicargentina/">ionic Argentina</a> Meetup, because <a target="_blank" href="http://www.hexacta.com/2014/12/12/speaking-of-ionic-framework-expert-talks-in-hexacta/">I'm in love with ionic</a>.</p>
             </div>
           </div>
           <!-- end of row-->
@@ -169,7 +168,7 @@ NNMD    888888888888888888888      88888888888888888888888888888888888D    DNNN
       </div>
       <!-- end of container          -->
     </section>
-    <section id="services" class="dark">
+    <section id="projects" class="dark">
       <div class="container">
         <div class="title center"><i class="icon-briefcase"></i>
           <h3>Some Projects<span class="red-dot"></span></h3>
@@ -178,29 +177,39 @@ NNMD    888888888888888888888      88888888888888888888888888888888888D    DNNN
         <div class="section-content">
           <div class="row">
             <div class="col-md-10 col-md-offset-1">
-              <div data-options="{&quot;items&quot;: 2, &quot;autoplay&quot;: true, &quot;margin&quot;: 30, &quot;mdItems&quot;: 2}" class="owl-carousel">
-                <div class="item">
-                  <div class="icon-box-small boxed mb-25 mt-25"><i class="icon-map"></i>
+              <div class="row">
+                <div class="col-sm-5">
+                  <div class="icon-box-basic"><i class="project-icon icon-download"></i>
+                    <h4><a target="_blank" href="https://github.com/matiastucci/easysubs">Easysubs</a></h4>
+                    <h6>Electron + AngularJS</h6>
+                    <p>App that allows you to download subtitles in a very fast and simple way.</p>
+                  </div>
+                  <div class="icon-box-basic"><i class="project-icon icon-map"></i>
                     <h4><a target="_blank" href="http://www.friocero.org">Frio Cero</a></h4>
-                    <p>App to help people who live on the streets of Argentina</p>
+                    <h6>Ionic + Firebase</h6>
+                    <p>App to help people who live on the streets of Argentina.</p>
                   </div>
-                </div>
-                <div class="item">
-                  <div class="icon-box-small boxed mb-25 mt-25"><i class="icon-chat"></i>
-                    <h4><a target="_blank" href="https://github.com/matiastucci/socket-chat-client">Chat Client</a></h4>
-                    <p>A simple chat client using NodeJS + Socket.IO + Ionic</p>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="icon-box-small boxed mb-25 mt-25"><i class="icon-phone"></i>
+                  <div class="icon-box-basic"><i class="project-icon icon-phone"></i>
                     <h4><a target="_blank" href="https://github.com/matiastucci/socket-starwars">Web Lightsaber</a></h4>
-                    <p>Play with a lightsaber using CSS3, Node.js and Socket.IO</p>
+                    <h6>Ionic + Node.js + Socket.IO + CSS3</h6>
+                    <p>Play with a lightsaber using web technologies and your smartphone.</p>
                   </div>
                 </div>
-                <div class="item">
-                  <div class="icon-box-small boxed mb-25 mt-25"><i class="icon-layers"></i>
+                <div class="col-sm-5 col-md-offset-2">
+                  <div class="icon-box-basic"><i class="project-icon icon-bargraph"></i>
+                    <h4><a target="_blank" href="https://github.com/keepers/adra-app">ADRA</a></h4>
+                    <h6>Ionic + Node.js + Socket.IO + MongoDB</h6>
+                    <p>Platform to collect real-time data for the recovery and development of hard hit areas.</p>
+                  </div>
+                  <div class="icon-box-basic"><i class="project-icon icon-chat"></i>
+                    <h4><a target="_blank" href="https://github.com/matiastucci/socket-chat-client">Ionic Chat</a></h4>
+                    <h6>Ionic + Node.js + Socket.IO</h6>
+                    <p>A simple ionic and Socket.IO ready-to-use chat client app.</p>
+                  </div>
+                  <div class="icon-box-basic"><i class="project-icon icon-layers"></i>
                     <h4><a target="_blank" href="https://github.com/matiastucci/socket-tetris">Socket.IO Tetris</a></h4>
-                    <p>Control a Tetris (Blockrain.js) using Node.js and Socket.IO</p>
+                    <h6>Ionic + Node.js + Socket.IO</h6>
+                    <p>Play Tetris in your computer and control it with your smartphone.</p>
                   </div>
                 </div>
               </div>
@@ -219,38 +228,42 @@ NNMD    888888888888888888888      88888888888888888888888888888888888D    DNNN
             <ul class="timeline">
               <li>
                 <div class="timeline-item">
-                  <h4>Crackle</h4><span>March 2015 - <b>Present</b></span>
+                  <h4>Crackle</h4><span>April 2015 - <b>Present</b></span>
                 </div>
                 <div class="timeline-description">
                   <h4>Web & Mobile Developer</h4>
-                  <p></p>
                 </div>
               </li>
               <li>
                 <div class="timeline-item">
-                  <h4>Banco Galicia</h4><span>July 2014 - <b>March 2015</b></span>
+                  <h4>Keepers</h4><span>January 2012 - <b>Present</b></span>
+                </div>
+                <div class="timeline-description">
+                  <h4>Entrepreneur</h4>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-item">
+                  <h4>Banco Galicia</h4><span>June 2014 - <b>April 2015</b></span>
                 </div>
                 <div class="timeline-description">
                   <h4>Mobile Developer</h4>
-                  <p>Mobile Development using Phonegap, AngularJS, and GruntJS</p>
                 </div>
               </li>
               <li>
                 <div class="timeline-item">
-                  <h4>PlusNewMedia</h4><span>July 2013 - <b>July 2014</b></span>
+                  <h4>PlusNewMedia</h4><span>June 2013 - <b>June 2014</b></span>
                 </div>
                 <div class="timeline-description">
                   <h4>Web Developer</h4>
-                  <p>Web development using CakePHP, AngularJS, CSS3 and HTML5 </p>
                 </div>
               </li>
               <li>
                 <div class="timeline-item">
-                  <h4>Telinfor</h4><span>January 2012 - <b>July 2013</b></span>
+                  <h4>Telinfor</h4><span>January 2012 - <b>June 2013</b></span>
                 </div>
                 <div class="timeline-description">
                   <h4>Web & Mobile Developer</h4>
-                  <p>Phonegap apps and web development using AngularJS, CSS3 and HTML5</p>
                 </div>
               </li>
               <li>
@@ -259,7 +272,6 @@ NNMD    888888888888888888888      88888888888888888888888888888888888D    DNNN
                 </div>
                 <div class="timeline-description">
                   <h4>Web Developer</h4>
-                  <p>Custom web pages converting PSD to HTML5, CSS3 and jQuery</p>
                 </div>
               </li>
             </ul>
@@ -298,7 +310,7 @@ NNMD    888888888888888888888      88888888888888888888888888888888888D    DNNN
                         <p>Send</p>
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
                           <path id="paper-plane-icon" d="M462,54.955L355.371,437.187l-135.92-128.842L353.388,167l-179.53,124.074L50,260.973L462,54.955z
-                      M202.992,332.528v124.517l58.738-67.927L202.992,332.528z"></path> 
+                      M202.992,332.528v124.517l58.738-67.927L202.992,332.528z"></path>
                         </svg>
                       </button>
                   </div>
