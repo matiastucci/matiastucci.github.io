@@ -138,6 +138,12 @@
       particleRadius: 5
     });
 
+    var elevator = new Elevator({
+      element: document.querySelector('.elevator-button'),
+      mainAudio: '../lib/elevator/music/elevator.mp3',
+      endAudio: '../lib/elevator/music/ding.mp3'
+    });
+
   }
 
   var escudo = '                                                                                 \n' +
