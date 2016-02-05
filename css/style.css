@@ -5259,3 +5259,18 @@ button.send.clicked svg path {
     padding-left: 6px;
   }
 }
+
+/* Projects */
+#projects a:focus {
+  color: #7a0921;
+  text-decoration: none;
+}
+#projects h4 {
+  font-size: 14px;
+}
+#projects h6 {
+  font-size: 13px;
+}
+#projects .project-icon {
+  color: #e6e7e9;
+}
