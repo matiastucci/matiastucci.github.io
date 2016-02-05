@@ -14,8 +14,7 @@
 
     $(window).scroll(function() {
 
-      if($('section:first').is('.parallax, #home, .splash')
-          && $('.navbar-toggle').css('display') === 'none'){
+      if($('section:first').is('.parallax, #home, .splash') && $('.navbar-toggle').css('display') === 'none'){
         if ($(window).scrollTop() >= 200 ) {
           $('#topnav').addClass('scroll');
           $('.navigation-menu').addClass('center');
@@ -141,7 +140,8 @@
 
   }
 
-var escudo = '  DNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\n' +
+  var escudo = '                                                                                 \n' +
+'  DNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\n' +
 '  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\n' +
 '  NNN                                    N                                    NNN\n' +
 '  NNN                                  DNDDN  Z                               NNN\n' +
