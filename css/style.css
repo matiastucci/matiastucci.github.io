@@ -852,6 +852,7 @@ blockquote footer {
 #topnav .navigation-menu > li > a:hover,
 #topnav .navigation-menu > li > a:focus {
   background-color: transparent;
+  color: #EF2D56;
 }
 @media (min-width: 992px) {
   #topnav .navigation-menu > li > a {
