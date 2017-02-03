@@ -88,12 +88,14 @@
           url: $(this).attr('action'),
           type: 'POST',
           data: $(this).serialize(),
+          dataType: "json"
         })
         .done(function() {
           $('button.send').addClass('clicked');
           $('button.send p').text('Sent!');
         })
-        .fail(function() {
+        .fail(function(e) {
+          console.log(e);
           var message = $('#contact-form').data('error-text') || 'There was an error. Try again later.';
           var errorTemplate = '<div role="alert" class="alert alert-danger alert-outline">'+ message +'</div>';
           $('#contact-form .alert').fadeOut(300);
