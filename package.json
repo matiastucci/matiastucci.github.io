@@ -1,0 +1,9 @@
+{
+  "name": "matias-tucci-site",
+  "version": "1.0.0",
+  "description": "Personal Site",
+  "author": "Matias Tucci <matiastucci@gmail.com>",
+  "scripts": {
+    "start": "serve ./"
+  }
+}
