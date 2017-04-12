@@ -5276,3 +5276,13 @@ button.send.clicked svg path {
 #projects .project-icon {
   color: #e6e7e9;
 }
+
+
+.more-projects:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.more-projects h4 a:hover {
+  color: #EF2D56;
+}
