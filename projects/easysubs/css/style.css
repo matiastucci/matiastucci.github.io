@@ -47,6 +47,8 @@ a.download {
 	background-color: #393E42;
 	border: 2px solid #393E42;
 	border-radius: 5px;
+	-webkit-transition: border .4s, background-color .4s;
+  transition: border .4s, background-color .4s;
 }
 a.download:hover {
 	background-color: transparent;
@@ -64,6 +66,8 @@ footer a {
 	color: #eee;
 	margin: 0 10px;
 	opacity: 0.8;
+	-webkit-transition: opacity .4s;
+  transition: opacity .4s;
 }
 footer a:hover {
 	opacity: 0.5;
