@@ -825,10 +825,13 @@ blockquote footer {
   padding: 0;
 }
 #topnav .navigation-menu.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   list-style: none;
   margin: 0 auto;
   padding: 0;
-  width: 443px;
+  width: 100%;
   float: none !important;
 }
 #topnav .navigation-menu > li {
