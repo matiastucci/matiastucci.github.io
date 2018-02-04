@@ -5271,7 +5271,7 @@ button.send.clicked svg path {
 
 /* Projects */
 #projects a:focus {
-  color: #7a0921;
+  /* color: #7a0921; */
   text-decoration: none;
 }
 #projects h4 {
@@ -5282,6 +5282,11 @@ button.send.clicked svg path {
 }
 #projects .project-icon {
   color: #e6e7e9;
+}
+
+#projects a:hover {
+  color: #EF2D56 !important;
+  opacity: .7;
 }
 
 .more-projects {
