@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: tucci.me
-Token: a4c3908a0767a9fc558e6358cc9c12acf1d8163c37ae382b3fe21d574fd2a544
